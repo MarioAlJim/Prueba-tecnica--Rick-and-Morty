@@ -1,0 +1,27 @@
+{
+  "name": "prueba-tecnica--rick-and-morty",
+  "version": "1.0.0",
+  "description": "API query and data processing",
+  "keywords": [
+    "api",
+    "rick",
+    "morty",
+    "filter",
+    "map"
+  ],
+  "homepage": "https://github.com/MarioAlJim/Prueba-tecnica--Rick-and-Morty#readme",
+  "bugs": {
+    "url": "https://github.com/MarioAlJim/Prueba-tecnica--Rick-and-Morty/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioAlJim/Prueba-tecnica--Rick-and-Morty.git"
+  },
+  "license": "ISC",
+  "author": "Mario Alberto Jimenez Jimenez",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
