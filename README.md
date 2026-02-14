@@ -3,7 +3,9 @@
 API REST construida con Node.js y Express que consume la API pública de Rick and Morty y devuelve personajes filtrados
 
 ## Características
-
+- Documento Index (Consulta e impresión por consola)
+--------
+API
 - Arquitectura en capas (server, app, routes, controllers, service)
 - Filtrado por status
 - Transformación de nombres (espacios → guiones bajos)
