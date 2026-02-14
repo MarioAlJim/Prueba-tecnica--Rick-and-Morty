@@ -22,7 +22,7 @@
   "type": "module",
   "main": "src/server.js",
   "scripts": {
-    "test": "node mainTest.js",
+    "test": "node src/tests/serviceTest.js",
     "dev": "nodemon src/server.js"
   },
   "devDependencies": {
