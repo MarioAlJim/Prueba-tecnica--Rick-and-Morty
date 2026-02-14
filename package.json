@@ -20,14 +20,19 @@
   "license": "ISC",
   "author": "Mario Alberto Jimenez Jimenez",
   "type": "module",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/tests/serviceTest.js",
+    "dev": "nodemon src/server.js"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@eslint/json": "^1.0.1",
     "eslint": "^10.0.0",
     "globals": "^17.3.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
   }
 }
