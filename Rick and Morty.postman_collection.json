@@ -1,0 +1,162 @@
+{
+  "info": {
+    "_postman_id": "1938fb28-73b2-4776-a3ee-27217973eae0",
+    "name": "Rick and Morty",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "26536574"
+  },
+  "item": [
+    {
+      "name": "Api base",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://rickandmortyapi.com/api",
+          "protocol": "https",
+          "host": [
+            "rickandmortyapi",
+            "com"
+          ],
+          "path": [
+            "api"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Api personajes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://rickandmortyapi.com/api/character",
+          "protocol": "https",
+          "host": [
+            "rickandmortyapi",
+            "com"
+          ],
+          "path": [
+            "api",
+            "character"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Alive characters",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://rickandmortyapi.com/api/character/?status=alive",
+          "protocol": "https",
+          "host": [
+            "rickandmortyapi",
+            "com"
+          ],
+          "path": [
+            "api",
+            "character",
+            ""
+          ],
+          "query": [
+            {
+              "key": "status",
+              "value": "alive"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Dead characters",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://rickandmortyapi.com/api/character/?status=dead",
+          "protocol": "https",
+          "host": [
+            "rickandmortyapi",
+            "com"
+          ],
+          "path": [
+            "api",
+            "character",
+            ""
+          ],
+          "query": [
+            {
+              "key": "status",
+              "value": "dead"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "My Api request general",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/characters",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "characters"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "All characters",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/characters/all",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "characters",
+            "all"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "By Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/characters/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "characters",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
