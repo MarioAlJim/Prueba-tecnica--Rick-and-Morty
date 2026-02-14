@@ -20,7 +20,7 @@ export async function getApiData() {
 export function filterByStatus(characters, status) {
     let filteredCharacters = characters.filter(character => character.status === status);
     filteredCharacters = filteredCharacters.map(character => 
-        ({ id: character.id, name: character.name, status: character.status })
+        ({ id: character.id, name: character.name, status: character.status, gender: character.gender})
     );
     return filteredCharacters;
 }
